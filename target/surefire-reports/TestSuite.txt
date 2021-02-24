@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 1, Time elapsed: 2.648 sec <<< FAILURE!
+afterTestTest(maven.lockownmavenproject33.FTC_03Test)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.RuntimeException: Test not implemented
+	at maven.lockownmavenproject33.FTC_03Test.afterTestTest(FTC_03Test.java:9)
+
+beforeTestTest(maven.lockownmavenproject33.FTC_03Test)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.RuntimeException: Test not implemented
+	at maven.lockownmavenproject33.FTC_03Test.beforeTestTest(FTC_03Test.java:14)
+
+fTest(maven.lockownmavenproject33.FTC_03Test)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.RuntimeException: Test not implemented
+	at maven.lockownmavenproject33.FTC_03Test.fTest(FTC_03Test.java:19)
+
+blue(maven.lockownmavenproject33.TestDependency)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: test failed
+	at org.testng.Assert.fail(Assert.java:96)
+	at maven.lockownmavenproject33.TestDependency.blue(TestDependency.java:26)
+

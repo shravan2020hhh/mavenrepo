@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9166" started-at="2021-02-15T10:20:28Z" finished-at="2021-02-15T10:20:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9166" started-at="2021-02-15T10:20:28Z" finished-at="2021-02-15T10:20:37Z">
+      <class name="com.suiteA.TestA3">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.suiteA.TestA3@45dd4eda]" name="f" duration-ms="3012" started-at="2021-02-15T10:20:34Z" finished-at="2021-02-15T10:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.suiteA.TestA3 -->
+      <class name="com.suiteA.TestA1">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.suiteA.TestA1@6ab7a896]" name="f" duration-ms="3029" started-at="2021-02-15T10:20:28Z" finished-at="2021-02-15T10:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.suiteA.TestA1 -->
+      <class name="com.suiteA.TestA2">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.suiteA.TestA2@327b636c]" name="f" duration-ms="3009" started-at="2021-02-15T10:20:31Z" finished-at="2021-02-15T10:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.suiteA.TestA2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="9092" started-at="2021-02-15T10:20:37Z" finished-at="2021-02-15T10:20:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9092" started-at="2021-02-15T10:20:37Z" finished-at="2021-02-15T10:20:46Z">
+      <class name="com.suiteB.TestB3">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.suiteB.TestB3@7995092a]" name="f" duration-ms="3028" started-at="2021-02-15T10:20:37Z" finished-at="2021-02-15T10:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.suiteB.TestB3 -->
+      <class name="com.suiteB.TestB2">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.suiteB.TestB2@f8c1ddd]" name="f" duration-ms="3009" started-at="2021-02-15T10:20:43Z" finished-at="2021-02-15T10:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.suiteB.TestB2 -->
+      <class name="com.suiteB.TestB1">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.suiteB.TestB1@7fc2413d]" name="f" duration-ms="3009" started-at="2021-02-15T10:20:40Z" finished-at="2021-02-15T10:20:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.suiteB.TestB1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite name="suite" duration-ms="0" started-at="2021-02-15T10:20:48Z" finished-at="2021-02-15T10:20:48Z">
+    <groups>
+    </groups>
+  </suite> <!-- suite -->
+</testng-results>

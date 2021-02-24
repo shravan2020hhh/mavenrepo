@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="maven.lockownmavenproject33.TestDependency">
+        <methods>
+          <include name="blue"/>
+          <include name="white"/>
+          <include name="orange"/>
+          <include name="green"/>
+        </methods>
+      </class> <!-- maven.lockownmavenproject33.TestDependency -->
+      <class name="maven.lockownmavenproject33.FTC_03Test">
+        <methods>
+          <include name="fTest"/>
+          <include name="afterTestTest"/>
+          <include name="beforeTestTest"/>
+        </methods>
+      </class> <!-- maven.lockownmavenproject33.FTC_03Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
